@@ -10,11 +10,12 @@ The whole automation part of recording and classifying is done on a raspberry pi
 
 This project can also be replicated on a Windows machine with a few modifications to the code.
 
+
 ## References
 
 This project incorporates code from the following source:
 
 - DeepLearningForAudioWithPython by **musikalkemist **
-  - Repository: [GitHub Repository URL](https://github.com/musikalkemist/DeepLearningForAudioWithPython)
+  - Repository: [DeepLearningForAudioWithPython](https://github.com/musikalkemist/DeepLearningForAudioWithPython)
   - Licensed under the MIT License
   
