@@ -1,5 +1,5 @@
-# This file includes code from the ' ' by AuthorName
-# Source: https://github.com/username/repository
+# This file includes code from the 'DeepLearningForAudioWithPython' by musikalkemist
+# Source: https://github.com/musikalkemist/DeepLearningForAudioWithPython
 # License: MIT License (see LICENSE file for details)
 import json
 import numpy as np
