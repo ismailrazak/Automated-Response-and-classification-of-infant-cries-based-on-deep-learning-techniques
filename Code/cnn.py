@@ -1,3 +1,6 @@
+# This file includes code from the ' ' by AuthorName
+# Source: https://github.com/username/repository
+# License: MIT License (see LICENSE file for details)
 import json
 import numpy as np
 from sklearn.model_selection import train_test_split
