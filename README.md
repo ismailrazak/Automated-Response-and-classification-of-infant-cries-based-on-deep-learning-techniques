@@ -10,7 +10,7 @@ The whole automation part of recording and classifying is done on a raspberry pi
 
 This project can also be replicated on a Windows machine with a few modifications to the code.
 
-##Working
+## Working
 
 It mainly focuses on two Models which are CNN and RNN-LSTM respectively.
 
@@ -62,7 +62,9 @@ These samples can be downloaded from these websites :
 [Freesound](https://freesound.org/)
 
 
-##Results
+## Results
+
+
 
 
 
