@@ -32,6 +32,7 @@ The dataset also incorporates samples from Baby Chillanto Database,which is a pr
 We would also like to thank Dr. Carlos A. Reyes-Garcia, Dr. Emilio Arch-Tirado and his INR-Mexico group, and Dr. Edgar M. Garcia-Tamayo for their dedication of the collection of the Infant Cry data base.
 
 HUNGER:
+
 [Hunger playlist-1](https://www.youtube.com/playlist?list=PL3c8pbVXDYnGT8IbavTdUo2LqdGDIHZbi)
 
 [Hunger playlist-2](https://www.youtube.com/playlist?list=PL8ev3X5tHcOZ1cMK47KJKzyybPGg1ASdN)
@@ -39,11 +40,13 @@ HUNGER:
 [Hunger playlist-3](https://www.youtube.com/playlist?list=PLi24J1tB5dgHDG6lNbSxeHtAIte73L56w)
 
 LAUGH:
+
 [Laugh playlist-1](https://www.youtube.com/playlist?list=PL46077C057708485D)
 [Laugh playlist-2](https://www.youtube.com/playlist?list=PL9FDDA065EED56EE5)
 [Laugh playlist-3](https://www.youtube.com/playlist?list=PL17qYU0cLqMqkAN_VFN8hj2Ylxw9LLWTq)
 
 PAIN:
+
 [Pain playlist-1](https://www.youtube.com/playlist?list=PLAWqy92HSINYIRZA0kUrmM69x0e0GV03r)
 [Pain playlist-2](https://www.youtube.com/playlist?list=PLF1_tLatgz_ywqj6HuCugg5eotD4KAqFa)
 [Pain playlist-3](https://www.youtube.com/playlist?list=PL6yh-QMpd3PAmXHt1Czhex_1vFb9N6rxr)
@@ -67,7 +70,8 @@ This project incorporates code from the following source:
 
   The Dataset also incorporates samples from the Baby Chillanto Dataset.
 
-  The paper:
+  The paper:(https://ieeexplore.ieee.org/abstract/document/4682484)
+  
   O. F. Reyes-Galaviz, S. D. Cano-Ortiz and C. A. Reyes-García, "Evolutionary-Neural System to Classify Infant Cry Units for Pathologies Identification in Recently Born Babies," 2008 Seventh Mexican International Conference on Artificial Intelligence, Atizapan de Zaragoza, Mexico, 2008, pp. 330-335, doi: 10.1109/MICAI.2008.73.
 keywords: {Pathology;Pediatrics;Genetics;Feature extraction;Mel frequency cepstral coefficient;Neural networks;Feedforward neural networks;Acoustic waves;Feeds;Propagation delay;Feature Selection;Evolutionary Strategies;Classification;Infant Cry Units;Pattern Recognition;Hybrid System}, 
 
