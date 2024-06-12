@@ -5,8 +5,8 @@ import soundfile as sf
 import os
 
 SAMPLE_RATE=22050
-path='TESTING'
-output_folder = 'New'
+path='ENTER YOUR PATH OF SAMPLES'
+output_folder = 'GIVE THE FOLDER WHERE YOU WANT TO SAVE THEM'
 
 
 def split_audio(input_file, output_folder, segment_duration=3,count=0):
