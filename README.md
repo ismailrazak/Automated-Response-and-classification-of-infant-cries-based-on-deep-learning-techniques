@@ -62,6 +62,30 @@ These samples can be downloaded from these websites :
 [Freesound](https://freesound.org/)
 
 
+##Implementaion
+
+First make a parent folder with the samples of each class in each sub-folder inside it.
+You can modify the sample duration in extract.py if needed.
+
+After this pass the path in DATASET_PATH in extract.py and run it.
+Thsi will loop through the sub-folders and extract the MFCC's of each of the samples and create a dataset.json file.
+
+After this run the cnn.py model to train the cnn model while adjusting the paarameters if required.
+Run the RNN-LSTM Model too if required.
+It will result in a ".keras" file which is your model.
+
+Now you can run the predictions.py to check if the model works with the samples you provide.
+It must end with '.wav'.
+
+After testing it with samples,we can run the live audio con.py.
+
+This file is meant to be run on the raspberry pi 4b because the selenium path for the auto-login of whatsapp is configured for raspberry pi.
+
+It also has the pins required to connect the motor driver to the pi if required or it can be commeented out.
+
+First time during initialization we muat scan the QR code for the whatsapp login.After that it auto logs in.
+Then the model does the predicition and sends alerts the parents via whatsapp.
+
 ## Results
 
 
