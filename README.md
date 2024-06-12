@@ -86,6 +86,8 @@ It also has the pins required to connect the motor driver to the pi if required 
 First time during initialization we muat scan the QR code for the whatsapp login.After that it auto logs in.
 Then the model does the predicition and sends alerts the parents via whatsapp.
 
+Also a pi camera is used to capture the photo of the baby and a microphone is used with an adapter to capture the audio.
+
 ## Results
 
 
