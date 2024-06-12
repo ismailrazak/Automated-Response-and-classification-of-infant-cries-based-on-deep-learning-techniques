@@ -81,11 +81,11 @@ def predict(model, X,recording_count):
 
         options.add_argument("--user-data-dir=/home/pi/.config/chromium/Default")
         browser_driver = Service('/usr/lib/chromium-browser/chromedriver')
-        page_to_scrape = webdriver.Chrome(service=browser_driver,options=options )
-        page_to_scrape.get("https://web.whatsapp.com/")
-        wait=WebDriverWait(page_to_scrape,100)
+        page = webdriver.Chrome(service=browser_driver,options=options )
+        page.get("https://web.whatsapp.com/")
+        wait=WebDriverWait(page,100)
 
-        target='"Ismail"'
+        target='"NAME OF THE WHATSAPP USER"'
         message=f'The Baby is crying due to {labels_to_name[predicted_index]}'
 
         contact_path='//span[contains(@title,'+ target +')]'
@@ -125,7 +125,7 @@ def predict(model, X,recording_count):
         contact4=wait.until(EC.presence_of_element_located((By.XPATH,contact4_path)))
         contact4.click()
         sleep(15)
-        page_to_scrape.quit()
+        page.quit()
         os.remove('/home/pi/test0.jpg')
        #cradle control
         duration = 20
