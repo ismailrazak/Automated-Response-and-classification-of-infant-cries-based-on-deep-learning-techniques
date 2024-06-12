@@ -11,6 +11,7 @@ The whole automation part of recording and classifying is done on a raspberry pi
 This project can also be replicated on a Windows machine with a few modifications to the code.
 
 ##Working
+
 It mainly focuses on two Models which are CNN and RNN-LSTM respectively.
 
 We have chosen these two models and trained them and chose the model which performs the best for our training data.
@@ -42,13 +43,17 @@ HUNGER:
 LAUGH:
 
 [Laugh playlist-1](https://www.youtube.com/playlist?list=PL46077C057708485D)
+
 [Laugh playlist-2](https://www.youtube.com/playlist?list=PL9FDDA065EED56EE5)
+
 [Laugh playlist-3](https://www.youtube.com/playlist?list=PL17qYU0cLqMqkAN_VFN8hj2Ylxw9LLWTq)
 
 PAIN:
 
 [Pain playlist-1](https://www.youtube.com/playlist?list=PLAWqy92HSINYIRZA0kUrmM69x0e0GV03r)
+
 [Pain playlist-2](https://www.youtube.com/playlist?list=PLF1_tLatgz_ywqj6HuCugg5eotD4KAqFa)
+
 [Pain playlist-3](https://www.youtube.com/playlist?list=PL6yh-QMpd3PAmXHt1Czhex_1vFb9N6rxr)
 
 NOISE:
@@ -57,7 +62,9 @@ These samples can be downloaded from these websites :
 [Freesound](https://freesound.org/)
 
 
-##Results:
+##Results
+
+
 
 
 ## References
