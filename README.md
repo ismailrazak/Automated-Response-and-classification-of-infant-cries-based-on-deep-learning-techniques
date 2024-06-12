@@ -62,13 +62,13 @@ These samples can be downloaded from these websites :
 [Freesound](https://freesound.org/)
 
 
-##Implementaion
+## Implementaion
 
 First make a parent folder with the samples of each class in each sub-folder inside it.
 You can modify the sample duration in extract.py if needed.
 
 After this pass the path in DATASET_PATH in extract.py and run it.
-Thsi will loop through the sub-folders and extract the MFCC's of each of the samples and create a dataset.json file.
+This will loop through the sub-folders and extract the MFCC's of each of the samples and create a dataset.json file.
 
 After this run the cnn.py model to train the cnn model while adjusting the paarameters if required.
 Run the RNN-LSTM Model too if required.
@@ -94,6 +94,8 @@ Then the model does the predicition and sends alerts the parents via whatsapp.
 
 
 ## References
+Major thanks to Valerio Velardo for making this amazing introductory course on Deep learning on audio processing.
+[Link for the youtube playlist](https://www.youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf)
 
 This project incorporates code from the following source:
 
