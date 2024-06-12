@@ -5,7 +5,7 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 
-input_path='hungwe 50 sec sample.wav'
+input_path='PASS YOUR AUDIO SAMPLE HERE'
 
 model = tf.keras.models.load_model('my rnn model.keras')
 
